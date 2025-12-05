@@ -59,7 +59,7 @@ FILES=$(find . \
   -type f \
   ! -path "*/.git/*" \
   ! -path "*/target/*" \
-  ! -name "init-template.sh" \
+  ! -name "init-micros.sh" \
   \( -name "*.java" -o \
      -name "*.xml" -o \
      -name "*.properties" -o \
