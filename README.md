@@ -12,6 +12,8 @@ The idea was:
 
 ---
 
+! if you are using intelliJ idea, after launching the init script, close the IDE, delete the .idea directory and re open it
+
 ## Requirements
 
 - JDK **21+** (atm)
