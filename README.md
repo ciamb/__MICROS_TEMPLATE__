@@ -39,3 +39,8 @@ boot ──┬──> inbound-adapter  ─┐
        └──> outbound-adapter ─┴──> application ───> domain
 ```
 
+## License
+
+This project is licensed under the [Apache License 2.0](./LICENSE).
+
+Copyright © 2025 Andrea Ciambella
