@@ -4,13 +4,13 @@ set -euo pipefail
 echo "Init for Quarkus micro service with hexagonal architecture"
 echo
 
-read -rp "Name? (es. portfolio) : " MICROS_NAME
+read -rp "Name? (use project name possibly) : " MICROS_NAME
 if [[ -z "${MICROS_NAME}" ]]; then
   echo "! The name must have a value"
   exit 1
 fi
 
-read -rp "Define groupId (es. dev.ciamb) : " GROUP_ID
+read -rp "Define groupId (es. org.acme) : " GROUP_ID
 if [[ -z "${GROUP_ID}" ]]; then
   echo "! groupId is mandatory"
   exit 1
